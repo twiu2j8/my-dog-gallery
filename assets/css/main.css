@@ -1644,7 +1644,7 @@ input, select, textarea {
 				width: 100%;
 			}
 			
-			#main .thumb .image > .date {
+			#main .thumb .image > h3 {
 				pointer-events: none;
 				bottom: 0.875em;
 				font-size: 0.5em;
