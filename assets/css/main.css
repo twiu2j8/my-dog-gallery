@@ -1643,6 +1643,16 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 			}
+			
+			#main .thumb .image > .date {
+				pointer-events: none;
+				bottom: 0.875em;
+				font-size: 0.5em;
+				right: 2.1875em;
+				margin: 0;
+				position: absolute;
+				z-index: 1;
+			}
 
 			#main .thumb > h2 {
 				pointer-events: none;
