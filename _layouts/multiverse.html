@@ -14,7 +14,7 @@
         <article class="thumb">
           <a href="{{site.baseurl}}/assets/images/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" class="image">
             <img src="{{site.baseurl}}/assets/images/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" alt="{{ image.name }}" />
-            <h3>{{ image.uploaddate }}</h3>
+            <h3>{{ image.upload }}</h3>
           </a>
           <h2>{{ image.title }}</h2>
           <p>{{ image.caption }}</p>
