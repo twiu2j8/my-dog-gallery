@@ -16,6 +16,7 @@
             <img src="{{site.baseurl}}/assets/images/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" alt="{{ image.name }}" />
           </a>
           <h2>{{ image.name }}</h2>
+          <h3>{{ image.title }}</h3>
           <p>{{ image.caption }}</p>
         </article>
         {% endfor %}
