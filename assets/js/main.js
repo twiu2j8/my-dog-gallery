@@ -183,7 +183,13 @@
 						});
 
 			});
-
+	
+	// Footer > File.
+		$("#file").on('change', function(){
+			var filename = $("#file").val();
+			$("#pic").val(filename);
+		});
+	
 	// Footer.
 		var $footer = $('#footer');
 
