@@ -366,7 +366,6 @@ input, select, textarea {
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
-	input[type="ex"],
 	button,
 	.button {
 		-moz-appearance: none;
