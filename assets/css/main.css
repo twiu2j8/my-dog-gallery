@@ -399,7 +399,6 @@ input, select, textarea {
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
-		input[type="ex"]:hover,
 		button:hover,
 		.button:hover {
 			box-shadow: inset 0 0 0 2px #34a58e;
@@ -409,7 +408,6 @@ input, select, textarea {
 			input[type="submit"]:hover:active,
 			input[type="reset"]:hover:active,
 			input[type="button"]:hover:active,
-			input[type="ex"]:hover:active,
 			button:hover:active,
 			.button:hover:active {
 				background-color: rgba(52, 165, 142, 0.15);
@@ -419,7 +417,6 @@ input, select, textarea {
 		input[type="submit"].icon,
 		input[type="reset"].icon,
 		input[type="button"].icon,
-		input[type="ex"].icon,
 		button.icon,
 		.button.icon {
 			padding-left: 1.35em;
@@ -428,7 +425,6 @@ input, select, textarea {
 			input[type="submit"].icon:before,
 			input[type="reset"].icon:before,
 			input[type="button"].icon:before,
-			input[type="ex"].icon:before,
 			button.icon:before,
 			.button.icon:before {
 				margin-right: 0.5em;
@@ -437,7 +433,6 @@ input, select, textarea {
 		input[type="submit"].fit,
 		input[type="reset"].fit,
 		input[type="button"].fit,
-		input[type="ex"].fit,
 		button.fit,
 		.button.fit {
 			width: 100%;
@@ -446,7 +441,6 @@ input, select, textarea {
 		input[type="submit"].small,
 		input[type="reset"].small,
 		input[type="button"].small,
-		input[type="ex"].small,
 		button.small,
 		.button.small {
 			font-size: 0.8em;
@@ -455,7 +449,6 @@ input, select, textarea {
 		input[type="submit"].large,
 		input[type="reset"].large,
 		input[type="button"].large,
-		input[type="ex"].large,
 		button.large,
 		.button.large {
 			font-size: 1.35em;
@@ -464,7 +457,6 @@ input, select, textarea {
 		input[type="submit"].primary,
 		input[type="reset"].primary,
 		input[type="button"].primary,
-		input[type="ex"].primary,
 		button.primary,
 		.button.primary {
 			background-color: #34a58e;
@@ -474,7 +466,6 @@ input, select, textarea {
 			input[type="submit"].primary:hover,
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
-			input[type="ex"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
 				background-color: #47c5ab;
@@ -484,7 +475,6 @@ input, select, textarea {
 				input[type="submit"].primary:hover:active,
 				input[type="reset"].primary:hover:active,
 				input[type="button"].primary:hover:active,
-				input[type="ex"].primary:hover:active,
 				button.primary:hover:active,
 				.button.primary:hover:active {
 					background-color: #287e6d;
@@ -496,8 +486,6 @@ input, select, textarea {
 		input[type="reset"]:disabled,
 		input[type="button"].disabled,
 		input[type="button"]:disabled,
-		input[type="ex"]:disabled,
-		input[type="ex"]:disabled,
 		button.disabled,
 		button:disabled,
 		.button.disabled,
