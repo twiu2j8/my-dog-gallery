@@ -576,9 +576,11 @@ input, select, textarea {
 		}
 		
 		form > .fields > .field.quarter label {
-			display: inline-block;
-			color: #ffffff;
-			background-color: #999999;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: ffffff;
+			background-color: #222222;
 			cursor: pointer;
 			vertical-align: middle;
 			width: 100%;
