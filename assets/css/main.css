@@ -541,6 +541,10 @@ input, select, textarea {
 					width: calc(25% - 0.375em);
 				}
 
+				from > .fields > .field.label {
+					width: calc(75% - 1.125em);
+				}
+
 		@media screen and (max-width: 736px) {
 
 			form > .fields {
