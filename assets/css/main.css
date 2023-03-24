@@ -589,7 +589,6 @@ input, select, textarea {
 	input[type="tel"],
 	input[type="search"],
 	input[type="url"],
-	input[type="file"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -660,7 +659,6 @@ input, select, textarea {
 	input[type="tel"],
 	input[type="search"],
 	input[type="url"],
-	input[type="file"],
 	select {
 		height: 2.75em;
 	}
