@@ -21,4 +21,3 @@ plugins:
 collections:
   images:
     output: true
-
