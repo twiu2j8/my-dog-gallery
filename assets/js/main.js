@@ -241,13 +241,6 @@
 						$image_img.hide();
 
 			});
-		
-		// Click Event.
-			function EventAlert() {
-				alert('제목은 사진에 어울거나 재밌는 제목으로.');
-				alert('사진 찍은 정확한 날짜를 안다면 BEST\n기억이 잘 나지 않는다면 대략 기억나는 날짜 뒤에 ?를 쓰기\n전혀 모른다면 안 써도 돼');
-				alert('설명은 한줄에서 두줄정도로 사진에 대해 설명해줘');
-			}
 	
 		// Poptrox.
 			$main.poptrox({
