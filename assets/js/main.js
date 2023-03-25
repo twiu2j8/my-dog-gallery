@@ -194,7 +194,7 @@
 		var exampleEvent = document.querySelector("#example");
 		
 		exampleEvent.addEventListener('click', function() {
-			alert('제목 : 사진에 어울리거나 재밌는 제목<br>날짜 : 사진 찍은 날짜<br>');
+			alert('제목 : 사진에 어울리거나 재밌는 제목\n날짜 : 사진 찍은 날짜');
 		});
 		
 	
