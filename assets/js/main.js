@@ -190,17 +190,12 @@
 			$("#pic").val(filename);
 		});
 	
-	//Footer > fields.
+	//Footer > input[type="button"] > #example.
 		var exampleEvent = document.querySelector("#example");
 		
 		exampleEvent.addEventListener('click', function() {
-			alert(`
-			사진에 어울리거나 재밌는 제목
-			정확한 날짜를 모르겠다면 기억나는 날짜 뒤에 (?) 붙이기
-			전혀 모르겠다면 비우기
-			사진에 대해 간단히 설명하기`);
+			alert('사진에 어울리거나 재밌는 제목\n정확한 날짜를 모르겠다면 기억나는 날짜 뒤에 (?) 붙이기\n전혀 모르겠다면 비우기\n사진에 대해 간단히 설명하기');
 		});
-		
 	
 	// Footer.
 		var $footer = $('#footer');
