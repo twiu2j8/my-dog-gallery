@@ -194,8 +194,7 @@
 		var exampleEvent = document.querySelector("#example");
 		
 		exampleEvent.addEventListener('click', function() {
-			swal('제목', '사진에 어울리는 제목을 적어주세요.');
-			swal('날짜');
+			alert('제목 : 사진에 어울리는 제목을 적어주세요.');
 		});
 		
 	
