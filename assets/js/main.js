@@ -191,9 +191,12 @@
 		});
 	
 	//Footer > fields.
-		$("#ex").on('click', function(){
-			alert("경고창");
+		var exEvent = document.querySelectot("#ex");
+		
+		exEvent.addEventListener('click', function() {
+			alert("알림창");
 		});
+		
 	
 	// Footer.
 		var $footer = $('#footer');
