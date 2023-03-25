@@ -190,6 +190,11 @@
 			$("#pic").val(filename);
 		});
 	
+	//Footer > fields.
+		$("#ex").on('click', function(){
+			alert("경고창");
+		});
+	
 	// Footer.
 		var $footer = $('#footer');
 
