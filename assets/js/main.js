@@ -191,10 +191,10 @@
 		});
 	
 	//Footer > fields.
-		var exEvent = document.querySelectot("#ex");
+		var exEvent = document.querySelectot("#example");
 		
 		exEvent.addEventListener('click', function() {
-			alert("알림창");
+			swal('제목', '사진에 어울리는 제목을 적어주세요.');
 		});
 		
 	
