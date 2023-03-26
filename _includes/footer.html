@@ -16,16 +16,16 @@
         <form method="post" action="https://formspree.io/f/xrgvadoq">
           <div class="fields">
             <div class="field half">
-              <input type="text" name="name" id="name" placeholder="제목" />
+              <input type="text" name="name" id="name" placeholder="제목" required />
             </div>
             <div class="field half">
-              <input type="date" name="date" id="date" placeholder="사진 찍은 날짜" />
+              <input type="date" name="date" id="date" placeholder="사진 찍은 날짜" required />
             </div>
             <div class="field">
-              <textarea name="message" id="message" rows="2" placeholder="간단한 설명" style="resize: none;"></textarea>
+              <textarea name="message" id="message" rows="2" placeholder="간단한 설명" style="resize: none;" required ></textarea>
             </div>
             <div class="field label">
-              <input type="text" name="pic" id="pic" placeholder="사진" />
+              <input type="text" name="pic" id="pic" placeholder="사진" disabled />
             </div>
             <div class="field quarter">
               <label for="file">사진 선택</label>
@@ -34,7 +34,7 @@
           </div>
           <ul class="actions">
             <li><input type="submit" value="보내기" class="primary" /></li>
-            <li><input type="reset" value="취소" /></li>
+            <li><input type="reset" value="초기화" /></li>
             <li><input type="button" value="모르겠어요" id="example" /></li>
           </ul>
         </form>
