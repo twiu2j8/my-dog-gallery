@@ -362,9 +362,6 @@ input, select, textarea {
 	}
 
 /* Button */
-	input[type="date"] {
-		width: 100%;
-	}
 
 	input[type="submit"],
 	input[type="reset"],
@@ -508,6 +505,10 @@ input, select, textarea {
 			pointer-events: none;
 			opacity: 0.35;
 		}
+	
+	input[type="date"] {
+		width: 100%;
+	}
 
 /* Form */
 
