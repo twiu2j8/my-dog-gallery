@@ -185,8 +185,17 @@
 			});
 	
 	// Footer > File.
-		$("#file").on('change', function(){
+		var fileDOM = document.querySelector('#file');
+		var preview = document.querySelector('#image-box');
+
+		fileDOM.addEventListener('change', () => {
+			var reader = new FileReader();
 			var filename = $("#file").val();
+
+			reader.onload = ({ target }) => {
+				preview.src = target.result;
+			};
+			reader.readAsDataURL(fileDOM.files[0]);
 			$("#pic").val(filename);
 		});
 	
