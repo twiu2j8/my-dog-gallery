@@ -575,6 +575,15 @@ input, select, textarea {
 
 		}
 		
+		form > .fields > #include-image {
+			text-align: center;
+		}
+
+		form > .fields > #include-image img{
+			background-size: cover;
+			width: 20%;
+		}
+
 		form > .fields > .field.quarter label {
 			display: flex;
 			justify-content: center;
