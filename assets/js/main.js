@@ -183,7 +183,7 @@
 						});
 
 			});
-	
+
 	// Footer > File.
 		var fileDOM = document.querySelector('#file');
 		var preview = document.querySelector('#image-box');
@@ -198,6 +198,16 @@
 			reader.readAsDataURL(fileDOM.files[0]);
 			$("#pic").val(filename);
 		});
+	
+	//resetEvent.
+		var resetEvent = document.querySelect("#reset");
+	
+		resetEvent.addEventListener('click', function() => {
+			var removeimage = document.querySelector("#image-box");
+			
+			removeimage.src = "";
+		});
+			
 	
 	//Footer > input[type="button"] > #example.
 		var exampleEvent = document.querySelector("#example");
