@@ -574,15 +574,6 @@ input, select, textarea {
 					}
 
 		}
-		
-		form > .fields > #include-image {
-			text-align: center;
-		}
-
-		form > .fields > #image-box {
-			background-size: cover;
-			width: 20%;
-		}
 
 		form > .fields > .field.quarter label {
 			display: flex;
@@ -605,6 +596,14 @@ input, select, textarea {
 				border: 0;
 				overflow: hidden;
 			}
+	
+	#include-image {
+		text-align: center;
+	}
+
+	#image-box {
+		width: 20%;
+	}
 
 	label {
 		color: #ffffff;
