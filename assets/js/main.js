@@ -200,7 +200,7 @@
 		});
 	
 	//resetEvent.
-		var resetEvent = document.querySelect("#reset");
+		var resetEvent = document.querySelector("#reset");
 	
 		resetEvent.addEventListener('click', function() {
 			var removeimage = document.querySelector("#image-box");
