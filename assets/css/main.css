@@ -579,7 +579,7 @@ input, select, textarea {
 			text-align: center;
 		}
 
-		form > .fields > #include-image img{
+		form > .fields > #image-box {
 			background-size: cover;
 			width: 20%;
 		}
