@@ -199,16 +199,15 @@
 			$("#pic").val(filename);
 		});
 	
-	//resetEvent.
+	// resetEvent.
 		var resetEvent = document.querySelector("#reset");
 	
 		resetEvent.addEventListener('click', function() {
 			var removeimage = document.querySelector("#image-box");
-			
 			removeimage.src = "";
 		});
 	
-	//Footer > input[type="button"] > #example.
+	// Footer > input[type="button"] > #example.
 		var exampleEvent = document.querySelector("#example");
 		
 		exampleEvent.addEventListener('click', function() {
