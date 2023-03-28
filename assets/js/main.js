@@ -207,7 +207,6 @@
 			
 			removeimage.src = "";
 		});
-			
 	
 	//Footer > input[type="button"] > #example.
 		var exampleEvent = document.querySelector("#example");
