@@ -202,7 +202,7 @@
 	//resetEvent.
 		var resetEvent = document.querySelect("#reset");
 	
-		resetEvent.addEventListener('click', function() => {
+		resetEvent.addEventListener('click', function() {
 			var removeimage = document.querySelector("#image-box");
 			
 			removeimage.src = "";
