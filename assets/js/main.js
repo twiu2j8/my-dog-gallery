@@ -185,8 +185,8 @@
 			});
 
 	// Footer > File.
-		var fileDOM = document.querySelector('#file');
-		var preview = document.querySelector('#image-box');
+		var fileDOM = document.querySelector("#file");
+		var preview = document.querySelector("#image-box");
 
 		fileDOM.addEventListener('change', () => {
 			var reader = new FileReader();
@@ -197,6 +197,8 @@
 			};
 			reader.readAsDataURL(fileDOM.files[0]);
 			$("#pic").val(filename);
+			
+			document.getElementById("imageUrl").innerText = src;
 		});
 	
 	// resetEvent.
