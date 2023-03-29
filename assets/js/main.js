@@ -197,6 +197,7 @@
 				$("#imageUrl").val(target.result);
 			};
 			reader.readAsDataURL(fileDOM.files[0]);
+			$("#pic").val(filename);
 		});
 	
 	// resetImage.
