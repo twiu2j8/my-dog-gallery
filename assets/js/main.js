@@ -204,9 +204,8 @@
 		var resetEvent = document.querySelector("input[type='reset']");
 	
 		resetEvent.addEventListener('click', function() {
-			var removeimage = document.querySelector("#image-box");
-			removeimage.src = "";
-			document.getElementById("imageUrl").innerText = "";
+			document.querySelector("#image-box").src = "";
+			document.querySelector("#imageUrl").reset();
 		});
 	
 	// Footer > input[type="button"] > #example.
