@@ -198,7 +198,7 @@
 			};
 			reader.readAsDataURL(fileDOM.files[0]);
 			$("#pic").val(filename);
-			fileDOM.attr("disabled", true);
+			document.getElementById("#file").disabled = true;
 		});
 	
 	// resetImage.
@@ -206,7 +206,7 @@
 	
 		resetEvent.addEventListener('click', function() {
 			document.querySelector("#image-box").src = "";
-			$("#file").attr("disabled", false);
+			document.getElementById("#file").disabled = false;
 		});
 	
 	// Footer > input[type="button"] > #example.
