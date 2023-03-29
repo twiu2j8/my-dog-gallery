@@ -206,6 +206,7 @@
 		resetEvent.addEventListener('click', function() {
 			var removeimage = document.querySelector("#image-box");
 			removeimage.src = "";
+			document.getElementById("imageUrl").innerText = "";
 		});
 	
 	// Footer > input[type="button"] > #example.
