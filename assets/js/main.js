@@ -214,6 +214,15 @@
 			alert('사진에 어울리거나 재밌는 제목\n날짜는 사진을 찍은 날짜로 설정\n날짜를 모른다면 입력하지 않아도 됨\n사진에 대해 간단히 설명하기');
 		});
 	
+	// Form.
+		var form = let form = document.createElement("form");
+		
+		form.action = "https://formspree.io/f/xrgvadoq";
+		form.method = "POST";
+		form.enctype = "multipart/form-data";
+	
+	// Form submit.
+	
 	// Footer.
 		var $footer = $('#footer');
 
