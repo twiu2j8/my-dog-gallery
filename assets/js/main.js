@@ -204,7 +204,7 @@
 		var resetEvent = document.querySelector("input[type='reset']");
 	
 		resetEvent.addEventListener('click', function() {
-			document.querySelector("#image-box").src = "";
+			$("form").reset();
 		});
 	
 	// Footer > input[type="button"] > #example.
