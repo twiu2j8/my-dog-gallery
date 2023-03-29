@@ -197,10 +197,6 @@
 			};
 			reader.readAsDataURL(fileDOM.files[0]);
 			$("#pic").val(filename);
-			
-			var src = jQuery('#image-url').attr("src");
-			
-			console.log(src);
 		});
 	
 	// resetEvent.
