@@ -200,11 +200,11 @@
 			$("#pic").val(filename);
 		});
 	
-	// resetEvent.
+	// resetEvent.(image)
 		var resetEvent = document.querySelector("input[type='reset']");
 	
 		resetEvent.addEventListener('click', function() {
-			$("form").reset();
+			document.querySelector("#image-box").src = "";
 		});
 	
 	// Footer > input[type="button"] > #example.
