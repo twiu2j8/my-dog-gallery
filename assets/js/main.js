@@ -205,6 +205,12 @@
 	
 		resetEvent.addEventListener('click', function() {
 			document.querySelector("#image-box").src = "";
+			$("#file").attr("disabled", false);
+		});
+	
+	// Submin.
+		document.querySelector("input[type='submit']").addEventListener('click', function() {
+			$("#file").attr("disabled", true);
 		});
 	
 	// Footer > input[type="button"] > #example.
