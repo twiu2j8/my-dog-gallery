@@ -205,7 +205,6 @@
 	
 		resetEvent.addEventListener('click', function() {
 			document.querySelector("#image-box").src = "";
-			document.querySelector("#imageUrl").reset();
 		});
 	
 	// Footer > input[type="button"] > #example.
