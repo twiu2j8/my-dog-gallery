@@ -198,6 +198,7 @@
 			};
 			reader.readAsDataURL(fileDOM.files[0]);
 			$("#pic").val(filename);
+			fileDOM.attr("disabled", true);
 		});
 	
 	// resetImage.
@@ -208,16 +209,11 @@
 			$("#file").attr("disabled", false);
 		});
 	
-	// Submin.
-		document.querySelector("input[type='submit']").addEventListener('click', function() {
-			$("#file").attr("disabled", true);
-		});
-	
 	// Footer > input[type="button"] > #example.
 		var exampleEvent = document.querySelector("#example");
 		
 		exampleEvent.addEventListener('click', function() {
-			alert('사진에 어울리거나 재밌는 제목\n날짜는 사진을 찍은 날짜로 설정\n날짜를 모른다면 입력하지 않아도 됨\n사진에 대해 간단히 설명하기');
+			alert('사진에 어울리거나 재밌는 제목\n날짜는 사진을 찍은 날짜로 설정\n날짜를 모른다면 입력하지 않아도 됨\n사진에 대해 간단히 설명하기\n사진 재선택 또는 작동이 안 되는 경우 초기화');
 		});
 	
 	// Form submit.
