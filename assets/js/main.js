@@ -194,7 +194,7 @@
 
 			reader.onload = ({ target }) => {
 				preview.src = target.result;
-				document.getElementById("imageUrl").innerText = target.result;
+				$("#imageUrl").val(target.result);
 			};
 			reader.readAsDataURL(fileDOM.files[0]);
 			$("#pic").val(filename);
