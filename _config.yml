@@ -24,6 +24,5 @@ collections:
   images:
     output: true
 
-analytics:
-  google: G-W75G11NTB6
+google_analytics: G-W75G11NTB6
 
