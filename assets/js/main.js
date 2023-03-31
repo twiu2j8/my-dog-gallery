@@ -183,7 +183,12 @@
 						});
 
 			});
-
+	// About.
+		var ABOUT = document.querySelector("#about");
+		
+		ABOUT.addEventListener('click', function() {
+			alert('모바일 사진 전송은 메일을 받을 수 없습니다.\n데스크탑이나 노트북을 이용하여 사진을 보내주시길 바랍니다.');
+		}
 	// Footer > File.
 		var fileDOM = document.querySelector("#file");
 		var preview = document.querySelector("#image-box");
